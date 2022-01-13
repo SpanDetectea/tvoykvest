@@ -8,11 +8,11 @@ import { YMaps } from 'react-yandex-maps';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <YMaps>
         <App />
       </YMaps>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
