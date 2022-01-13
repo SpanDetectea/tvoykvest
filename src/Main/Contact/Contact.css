@@ -1,0 +1,42 @@
+.wrapper__contact {
+    padding: 20px 20px;
+    display: flex;
+}
+.contact__icons {
+    margin: 10px 10px;
+}
+.wrapper__contact__a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 2px;
+    text-align: center;
+    position: relative;
+    color: rgb(92, 3, 3);
+    transition: .4s linear;
+}
+.wrapper__contact__a::before,
+.wrapper__contact__a::after {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: .4s linear;
+}
+
+.wrapper__contact__a:hover::before {
+    border-left: 1px solid rgb(92, 3, 3);
+    border-right: 1px solid rgb(92, 3, 3);
+    transform: skewX(20deg);
+}
+.wrapper__contact__a:hover::after {
+    border-top: 1px solid rgb(92, 3, 3);
+    border-bottom: 1px solid rgb(92, 3, 3);
+    transform: skewY(-20deg);
+}
+.wrapper__contact__a:hover {
+    transform: scale(0.9);
+}

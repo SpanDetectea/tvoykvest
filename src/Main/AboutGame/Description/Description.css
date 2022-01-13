@@ -1,0 +1,19 @@
+.wrapper__aboutGame__description__double {
+    padding-top: 100px;
+}
+.span__square {
+    text-align: center;
+    font-size: 2em;
+}
+.wrapper__description__location {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+.description__location__comment {
+    font: italic normal 16px cursive;
+    color: rgb(160, 160, 160);
+}
+.description__location {
+    margin-top: 10px;
+}

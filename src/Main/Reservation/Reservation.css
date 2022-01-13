@@ -1,0 +1,41 @@
+.wrapper__reservation {
+    /* display: none; */
+    /* border: 1px solid blue; */
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    /* top: 30%; */
+    /* left: 40%; */
+    left: calc(50% - 200px);
+    top: calc(50% - 100px - 76px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    /* background: red; */
+}
+.wrapper__reservation__double {
+    background-color: #010e1b;
+    background-image: url('./../../assets/images/blood.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: inherit;
+    height: calc(100% - 24px);
+    align-self: flex-end;
+    opacity: 0.7;
+}
+.wrapper__visible {
+    visibility: visible;
+}
+.wrapper__hidden {
+    visibility: hidden;
+}
+p {
+    padding-left: 10px;
+}
+.wrapper__reservation__cross {
+    /* margin:auto 0; */
+    align-self: flex-start;
+    cursor: pointer;
+}

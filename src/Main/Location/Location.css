@@ -1,0 +1,33 @@
+.location__a {
+    text-decoration: underline;
+    color: rgb(7, 60, 121);
+}
+.wrapper__location {
+    background-color: #010e1b;
+    text-align: center;
+}
+.location__header {
+    padding-top: 60px;
+    font: italic small-caps bold 2em cursive;
+}
+.location__info {
+    display: flex;
+    padding-left: 60px;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper__location__map, Map {
+    width: 100%;
+    height: auto;
+    /* display: flex;
+    justify-content: center; */
+    /* text-align: center; */
+}
+.wrapper__map {
+    width: 700px;
+    height: 400px;
+}
+.location__info__double {
+    padding-right: 100px;
+}

@@ -1,0 +1,29 @@
+.wrapper__birthday {
+    padding-top: 50px;
+    background-color: #010e1b;
+    text-align: center;
+    font: italic small-caps bold 2em cursive;
+}
+.birthday__text {
+    padding-top: 20px;
+    font-size: 0.8em;
+}
+.birthday__present__img {
+    padding-top: 20px;
+    height: 200px;
+}
+.wrapper__birthday__text {
+    font: italic normal 16px cursive;
+    text-align: start;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.span__free {
+    text-decoration: underline;
+}
+.span__clue {
+    text-decoration: line-through;
+}
+.birthday__description {
+    padding-top: 7px;
+}
