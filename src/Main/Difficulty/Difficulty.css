@@ -5,7 +5,11 @@
     text-align: center;
     font: italic small-caps bold 2em cursive;
 }
-
+@media (max-width: 400px) {
+    .wrapper__difficulty {
+        font-size: 14px;
+    }
+}
 .ul__difficulty {
     font-size: 16px;
     line-height: 1.5em;

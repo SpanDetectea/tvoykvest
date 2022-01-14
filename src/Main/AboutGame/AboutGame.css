@@ -70,7 +70,9 @@
 .wrapper__aboutGame__reserv:hover {
     animation: shake 0.6s infinite;
 }
-
+.wrapper__aboutGame__reserv:active {
+    animation: shake 0.6s infinite;
+}
 @keyframes shake {
     0% {
         transform: translate(0px, 0px) rotate(0deg);
