@@ -23,6 +23,7 @@
 @media (max-width: 400px) {
     .wrapper__description__location {
         font-size: 12px;
+        margin-left: 10%;
     }
 }
 .description__location__comment {

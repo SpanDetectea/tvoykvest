@@ -13,6 +13,11 @@
     align-items: flex-start;
     /* align-items: top; */
 }
+@media (max-width: 400px) {
+    .ul__difficulty {
+        font-size: 12px;
+    }
+}
 
 .wrapper__difficulty_description {
     margin-top: 30px;
@@ -33,6 +38,11 @@
 .difficulty_description {
     font: italic normal 16px cursive;
     color: rgb(160, 160, 160);
+}
+@media (max-width: 400px) {
+    .difficulty_description {
+        font-size: 12px;
+    }
 }
 
 .wrapper__difficulty_description__medium {

@@ -31,3 +31,9 @@
 .location__info__double {
     padding-right: 100px;
 }
+@media (max-width: 400px) {
+    .location__info__double {
+        padding-right: 5%;
+        font-size: 12px;
+    }
+}

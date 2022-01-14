@@ -15,8 +15,13 @@
 .wrapper__birthday__text {
     font: italic normal 16px cursive;
     text-align: start;
-    padding-left: 60px;
+    padding-left: 6%;
     padding-top: 30px;
+}
+@media (max-width: 400px) {
+    .wrapper__birthday__text {
+        padding-right: 5%;
+    }
 }
 .span__free {
     text-decoration: underline;
