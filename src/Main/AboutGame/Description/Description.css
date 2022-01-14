@@ -1,18 +1,38 @@
 .wrapper__aboutGame__description__double {
     padding-top: 100px;
 }
+@media (max-width: 400px) {
+    .wrapper__aboutGame__description__double {
+        padding-right: 20px;
+    }
+}
 .span__square {
     text-align: center;
     font-size: 2em;
+}
+@media (max-width: 400px) {
+    .span__square {
+        font-size: 1em;
+    }
 }
 .wrapper__description__location {
     display: flex;
     flex-direction: column;
     margin-left: 20%;
 }
+@media (max-width: 400px) {
+    .wrapper__description__location {
+        font-size: 12px;
+    }
+}
 .description__location__comment {
     font: italic normal 16px cursive;
     color: rgb(160, 160, 160);
+}
+@media (max-width: 400px) {
+    .description__location__comment {
+        font-size: 10px;
+    }
 }
 .description__location {
     margin-top: 10px;
