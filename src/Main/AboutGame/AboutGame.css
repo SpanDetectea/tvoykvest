@@ -1,10 +1,7 @@
 .wrapper__aboutGame {
     width: inherit;
     height: auto;
-    /* padding-left: 10px; */
-    /* position: relative; */
-    /* top: 11%; */
-    font: italic small-caps bold 16px cursive;
+    font: normal small-caps bold 16px cursive;
 }
 
 
@@ -24,9 +21,6 @@
 }
 
 .wrapper__aboutGame__rules {
-    /* padding-left: 8%; */
-    /* position: relative; */
-    /* top: 21%; */
     margin-top: 19%;
     margin-left: 70%;
     width: 30%;
@@ -40,15 +34,9 @@
 }
 
 .wrapper__aboutGame__description {
-    /* padding-left: 16%;
-    margin-top: 20px;
-    width: 30%; */
-    /* position: relative; */
     top: 15%;
-    /* margin-left: -5px; */
     margin-top: 15%;
     background-color: #010e1b;
-    /* border: 1px solid red; */
     width: inherit;
     height: auto;
      background:  linear-gradient(to bottom,  transparent calc(-0% - 1px), #010e1b calc(10% + 50px), #010e1b 100%),
@@ -70,9 +58,7 @@
 .wrapper__aboutGame__reserv:hover {
     animation: shake 0.6s infinite;
 }
-.wrapper__aboutGame__reserv:active {
-    animation: shake 0.6s infinite;
-}
+
 @keyframes shake {
     0% {
         transform: translate(0px, 0px) rotate(0deg);
@@ -94,8 +80,3 @@
         transform: translate(-1px, 1px) rotate(-1deg);
     }
 }
-/* .svg {
-    border: 1px solid red;
-    position: absolute;
-    bottom: 700px;
-} */

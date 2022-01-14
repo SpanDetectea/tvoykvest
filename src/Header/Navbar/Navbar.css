@@ -1,28 +1,25 @@
 .wrapper__navbar {
-    /* border: 1px solid red; */
     width: 100%;
     height: inherit;
     display: flex;
     position: fixed;
     z-index: 1;
 }
-ul {
-    /* position: absolute; */
+.navbar__ul {
     height: auto;
-    width: inherit;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 10%;
+    margin-right: 5%;
     padding-inline-start: 0;
 }
 ul li {
+    width: min-content;
     list-style-type: none;
-    /* font-size: 1em; */
-    /* font-size: 30px; */
     font-family: Arial, Helvetica, sans-serif;
-    /* margin-bottom: 5%; */
-    margin-left: 10px;
+    margin-left: 1%;
+    white-space: nowrap;
 }
 .wrapper__after__header {
     display: flex;

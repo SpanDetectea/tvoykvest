@@ -2,22 +2,14 @@ html, body, #root, .App {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* border: 1px solid green; */
   height: 100%;
   width: 100%;
 }
 .App {
-  /* background-image: url('./assets/images/wrapper.png'); */
-  /* background: linear-gradient(transparent 80px, white); */
-  /* background:  linear-gradient(to bottom,  transparent calc(60% + 30px), #010e1b calc(60% + 160px), #010e1b 100%), */
-/* url('./assets/images/wrapperAW.jpg') no-repeat top center; */
   background-image: url('./assets/images/wrapperAW.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
-  /* background-clip: border-box; */
-  /* background-position-y: center; */
   color: white;
-  /* font-size: clamp(5px, 15px, 20px); */
   font-size: 15px;
   -webkit-background-size: cover;
   overflow-y: visible;
@@ -26,4 +18,7 @@ html, body, #root, .App {
   .App {
     font-size: 8px;
   }
+}
+ul {
+  padding-inline-start: 0;
 }

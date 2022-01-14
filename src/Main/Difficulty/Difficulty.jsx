@@ -8,14 +8,16 @@ const Difficulty = () => {
     return (
         <div className="wrapper__difficulty">
             Уровни Страха
-            <ul className="ul__difficulty">
-                <li className="li__difficulty">Вы можете выбрать уровень страха прямо перед игрой</li>
-                <li className="li__difficulty">У нас индивидуальный подход к каждой команде и к  каждому игроку</li>
-                <li className="li__difficulty">Актеры впервую очередь смотрят на вашу реакцию</li>
-            </ul>
+            <div className="wrapper__ul__difficulty">
+                <ul className="ul__difficulty">
+                    <li className="li__difficulty">Вы можете выбрать уровень страха прямо перед игрой</li>
+                    <li className="li__difficulty">У нас индивидуальный подход к каждой команде и к  каждому игроку</li>
+                    <li className="li__difficulty">Актеры впервую очередь смотрят на вашу реакцию</li>
+                </ul>
+            </div>
             <div className="wrapper__difficulty_description">
                 <div className="wrapper__difficulty_description__light">
-                    <b>Легкий
+                    <b className="b__difficulty__description">Легкий
                         <img src={fear}></img>
                     </b>
                     <div className="difficulty_description">Игра актеров без контакта или полное их отсутсвие<br></br>
@@ -24,7 +26,7 @@ const Difficulty = () => {
                     </div>
                 </div>
                 <div className="wrapper__difficulty_description__medium">
-                    <b> Средний
+                    <b className="b__difficulty__description"> Средний
                         <img src={ghost_medium}></img>
                     </b>
                     <div className="difficulty_description">Легкий контакт (касания)<br></br>
@@ -34,7 +36,7 @@ const Difficulty = () => {
                     </div>
                 </div>
                 <div className="wrapper__difficulty_description__hard">
-                    <b> Хард
+                    <b className="b__difficulty__description"> Хард
                         <img src={ghost_hard}></img>
                     </b>
                     <div className="difficulty_description">Полный контакт<br></br>

@@ -3,30 +3,42 @@
     background-color: #010e1b;
     padding-top: 50px;
     text-align: center;
-    font: italic small-caps bold 2em cursive;
+    /* padding: 0 10%; */
+    font: normal small-caps bold 2em cursive;
 }
 @media (max-width: 400px) {
-    .wrapper__difficulty {
-        font-size: 14px;
-    }
+   
+}
+.wrapper__ul__difficulty {
+    /* margin-left: 5%; */
 }
 .ul__difficulty {
     font-size: 16px;
     line-height: 1.5em;
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     /* align-items: top; */
+    /* margin: 0 1; */
 }
 @media (max-width: 400px) {
+    .wrapper__difficulty {
+        font-size: 14px;
+    }
     .ul__difficulty {
         font-size: 12px;
     }
 }
+.li__difficulty {
+    margin-left: 0;
+    /* margin: 0 1%; */
+    /* text-align: l; */
+}
 
 .wrapper__difficulty_description {
     margin-top: 30px;
-    text-align: left;
-    margin-left: 50px;
+    /* text-align: left;
+    margin-left: 50px; */
     background-color: #010e1b;
 }
 
@@ -37,10 +49,10 @@
     vertical-align: top;
     white-space: normal;
     word-wrap: break-word;
-    
+    padding-right: 8px;
 }
 .difficulty_description {
-    font: italic normal 16px cursive;
+    font: normal normal 16px cursive;
     color: rgb(160, 160, 160);
 }
 @media (max-width: 400px) {
@@ -58,6 +70,7 @@
     word-wrap: break-word;
     border-left: 1px solid white;
     border-right: 1px solid white;
+    padding: 0 8px;
 }
 
 .wrapper__difficulty_description__hard {
@@ -67,10 +80,17 @@
     white-space: normal;
     vertical-align: top;
     word-wrap: break-word;
+    padding-left: 8px;
 }
 b {
     text-decoration: underline;
 }
+@media (max-width: 400px) {
+    .b__difficulty__description {
+        font-size: 12px;
+    }
+}
+
 b img {
     margin-left: 10px;
     transition: opacity 0.6s;

@@ -3,3 +3,11 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+/* @media (max-width: 635px) {
+    a {
+        font-size: 10px;
+    }
+} */
+/* .navbar__ul__li {
+    width: auto;
+} */

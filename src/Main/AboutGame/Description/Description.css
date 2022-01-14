@@ -9,27 +9,27 @@
 .span__square {
     text-align: center;
     font-size: 2em;
-    color: red;
+    /* color: red; */
 }
 @media (max-width: 400px) {
     .span__square {
         font-size: 1em;
-        color: purple;
+        /* color: purple; */
     }
 }
 .wrapper__description__location {
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 @media (max-width: 400px) {
     .wrapper__description__location {
         font-size: 12px;
-        margin-left: 10%;
+        margin-left: 5%;
     }
 }
 .description__location__comment {
-    font: italic normal 16px cursive;
+    font: normal normal 16px cursive;
     color: rgb(160, 160, 160);
 }
 @media (max-width: 400px) {

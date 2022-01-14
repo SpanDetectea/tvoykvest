@@ -11,8 +11,12 @@ const ListMenu = (props) => {
         wrapper.classList.remove('wrapper__hidden');
     }
     return (
-        <li>
-            {path == '/reservation' ? <NavLink className='' to = {path} onClick={addClass}>{props.text}</NavLink> :<NavLink className='' to = {path} >{props.text}</NavLink>}
+        <li className="navbar__ul__li">
+            {path == '/reservation' ?
+                <NavLink to={path} onClick={addClass}>
+                    {props.text}
+                </NavLink>
+                : <NavLink className='' to={path} >{props.text}</NavLink>}
         </li>
     );
 }
