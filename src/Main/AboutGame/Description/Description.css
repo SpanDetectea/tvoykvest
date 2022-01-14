@@ -9,10 +9,12 @@
 .span__square {
     text-align: center;
     font-size: 2em;
+    color: red;
 }
 @media (max-width: 400px) {
     .span__square {
         font-size: 1em;
+        color: purple;
     }
 }
 .wrapper__description__location {
