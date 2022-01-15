@@ -1,5 +1,6 @@
 import React from "react";
 import { Map, Placemark } from "react-yandex-maps";
+import Contact from "../Contact/Contact";
 import './Location.css';
 
 const Location = () => {
@@ -11,10 +12,11 @@ const Location = () => {
             <div className="location__info">
                 <div className="location__info__double">
                     <div>Адрес: улица Державина, 5</div>
-                    <div>Телефонный номер: +7 (911) 412-03-26</div>
-                    <div>Whatsapp: +7 (911) 412-03-26</div>
+                    <div>Телефонный номер: <a href ='tel:79114120326' className="location__phone__number">+7 (911) 412-03-26</a></div>
+                    {/* <div>Whatsapp: +7 (911) 412-03-26</div>
                     <div>vk: <a className="location__a" href="https://vk.com/tvoy_kvest">tvoy_kvest</a></div>
-                    <div>instagram: <a className="location__a" href="https://www.instagram.com/tvoy_kvest/">tvoy_kvest</a></div>
+                    <div>instagram: <a className="location__a" href="https://www.instagram.com/tvoy_kvest/">tvoy_kvest</a></div> */}
+                    <div><Contact /></div>
                 </div>
                 <div className="wrapper__location__map">
                     <Map className="wrapper__map" defaultState={{ center: [61.779198, 34.403481], zoom: 16, controls: ['zoomControl', 'fullscreenControl'] }}

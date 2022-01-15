@@ -11,7 +11,7 @@ const AboutGame = (props) => {
         settextButton('Забронировать');
     }
     const addClass = () => {
-        let wrapper = document.querySelector('.wrapper__reservation');
+        let wrapper = document.querySelector('.wrapper__modal__window');
         wrapper.classList.remove('wrapper__hidden');
     }
 

@@ -13,6 +13,7 @@
     align-items: center;
     margin-right: 5%;
     padding-inline-start: 0;
+    font-size: 14px;
 }
 ul li {
     width: min-content;
@@ -27,4 +28,17 @@ ul li {
 .navbar__ul__hidden {
     font-size: 0.8em;
     align-items: flex-start;
+}
+@media (max-width: 420px) {
+    .navbar__ul {
+        font-size: 8px;
+    }
+}
+@media (min-width: 421px ) and (max-width: 670px) {
+    .navbar__ul {
+        font-size: 9px;
+    }
+}
+.navbar__hidden {
+    display: none;
 }

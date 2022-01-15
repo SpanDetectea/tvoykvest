@@ -21,7 +21,7 @@ const Navbar = () => {
             <ListMenu path = 'reviews' text = 'Отзывы' icon = {reviewsIcon}/>
             <ListMenu path = 'location' text = 'Где находится?' icon = {locationIcon}/>
             <ListMenu path = 'reservation' text = 'Забронировать' icon = {reservationIcon}/>
-            <ListMenu path = 'contact' text = 'Контакты' icon = {contactIcon}/>
+            {/* <ListMenu path = 'contact' text = 'Контакты' icon = {contactIcon}/> */}
         </ul>
     </div>
 }

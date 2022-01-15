@@ -3,14 +3,11 @@
     background-color: #010e1b;
     padding-top: 50px;
     text-align: center;
-    /* padding: 0 10%; */
     font: normal small-caps bold 2em cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
-@media (max-width: 400px) {
-   
-}
+
 .wrapper__ul__difficulty {
-    /* margin-left: 5%; */
 }
 .ul__difficulty {
     font-size: 16px;
@@ -18,30 +15,17 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    /* align-items: top; */
-    /* margin: 0 1; */
-}
-@media (max-width: 400px) {
-    .wrapper__difficulty {
-        font-size: 14px;
-    }
-    .ul__difficulty {
-        font-size: 12px;
-    }
 }
 .li__difficulty {
-    margin-left: 0;
-    /* margin: 0 1%; */
-    /* text-align: l; */
+    margin-left: 0 1%;
+    width: auto;
+    white-space: normal;
 }
 
 .wrapper__difficulty_description {
     margin-top: 30px;
-    /* text-align: left;
-    margin-left: 50px; */
     background-color: #010e1b;
 }
-
 .wrapper__difficulty_description__light {
     width: calc(33% - (50px / 3));
     text-align: center;
@@ -52,15 +36,12 @@
     padding-right: 8px;
 }
 .difficulty_description {
+    margin-top: 1%;
     font: normal normal 16px cursive;
     color: rgb(160, 160, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
-@media (max-width: 400px) {
-    .difficulty_description {
-        font-size: 12px;
-    }
-}
-
 .wrapper__difficulty_description__medium {
     width: calc(33% - (50px / 3));
     display: inline-block;
@@ -85,8 +66,17 @@
 b {
     text-decoration: underline;
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     .b__difficulty__description {
+        font-size: 12px;
+    }
+    .difficulty_description {
+        font-size: 12px;
+    }
+    .wrapper__difficulty {
+        font-size: 14px;
+    }
+    .ul__difficulty {
         font-size: 12px;
     }
 }
@@ -95,12 +85,9 @@ b img {
     margin-left: 10px;
     transition: opacity 0.6s;
 }
-/* b img:hover {
-} */
 b img:hover {
     animation: leaving 0.6s 1;
     opacity: 0;
-    /* animation: shake 0.6s infinite; */
 }
 @keyframes leaving{
     0% {
@@ -123,24 +110,3 @@ b img:hover {
         transform: translateY(-5px);
     }
 }
-/* @keyframes shake {
-    0% {
-        transform: translate(0px, 0px) rotate(0deg);
-    }
-
-    25% {
-        transform: translate(1px, 1px) rotate(1deg);
-    }
-
-    50% {
-        transform: translate(-1px, -1px) rotate(-1deg);
-    }
-
-    75% {
-        transform: translate(2px, -1px) rotate(2deg);
-    }
-
-    100% {
-        transform: translate(-1px, 1px) rotate(-1deg);
-    }
-} */

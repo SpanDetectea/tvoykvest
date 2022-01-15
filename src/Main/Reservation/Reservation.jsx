@@ -4,18 +4,23 @@ import cross from './../../assets/icons/cross.png';
 
 const Reservation = (props) => {
 
-    const deleteClass = () => {
-        let wrapper = document.querySelector('.wrapper__reservation');
+    const deleteClass = (e) => {
+        if (e.target.className == 'wrapper__reservation__double' || e.target.localName == 'p') {
+            return;
+        }
+        let wrapper = document.querySelector('.wrapper__modal__window');
         wrapper.classList.add('wrapper__hidden');
     }
 
     return (
-        <div className="wrapper__reservation wrapper__hidden">
-            <div className="wrapper__reservation__double">
-                <p>Телефонный номер: +7 (911) 412-03-26</p>
-                <p>Адресс: улица Державина, 5</p>
+        <div className="wrapper__modal__window wrapper__hidden" onClick={deleteClass}>
+            <div className="wrapper__reservation">
+                <div className="wrapper__reservation__double">
+                    <p>Телефонный номер: +7 (911) 412-03-26</p>
+                    <p>Адрес: улица Державина, 5</p>
+                </div>
+                <img className="wrapper__reservation__cross" src={cross} onClick={deleteClass}></img>
             </div>
-            <img className="wrapper__reservation__cross" src = {cross} onClick={deleteClass}></img>
         </div>
     );
 }

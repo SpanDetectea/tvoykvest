@@ -1,9 +1,9 @@
 import React from "react";
-import { Route, Routes } from "react-router";
 import AboutGame from "./AboutGame/AboutGame.jsx";
 import Birthday from "./Birthday/Birthday.jsx";
 import Contact from "./Contact/Contact.jsx";
 import Difficulty from "./Difficulty/Difficulty.jsx";
+import Footer from "./Footer/Footer.jsx";
 import Location from "./Location/Location.jsx";
 import './Main.css';
 import Reservation from "./Reservation/Reservation.jsx";
@@ -18,7 +18,8 @@ const Main = () => {
             <Difficulty />
             <Birthday />
             <Location />
-            <Reviews />
+            {/* <Reviews /> */}
+            <Footer />
         </div>
     );
 }

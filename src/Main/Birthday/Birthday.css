@@ -3,6 +3,8 @@
     background-color: #010e1b;
     text-align: center;
     font: normal small-caps bold 2em cursive;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 .birthday__text {
     padding-top: 20px;
@@ -14,6 +16,8 @@
 }
 .wrapper__birthday__text {
     font: normal normal 16px cursive;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
     text-align: start;
     padding-left: 6%;
     padding-top: 30px;

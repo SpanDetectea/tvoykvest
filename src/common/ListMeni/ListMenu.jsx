@@ -7,7 +7,7 @@ const ListMenu = (props) => {
     // console.log(props.icon);
     const addClass = props => {
         // console.log('da');
-        let wrapper = document.querySelector('.wrapper__reservation');
+        let wrapper = document.querySelector('.wrapper__modal__window');
         wrapper.classList.remove('wrapper__hidden');
     }
     return (
