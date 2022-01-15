@@ -7,8 +7,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrapper__ul__difficulty {
-}
+/* .wrapper__ul__difficulty {
+} */
 .ul__difficulty {
     font-size: 16px;
     line-height: 1.5em;
@@ -85,7 +85,14 @@ b img {
     margin-left: 10px;
     transition: opacity 0.6s;
 }
-b img:hover {
+/* b img:hover {
+    animation: leaving 0.6s 1;
+    opacity: 0;
+} */
+.img__difficulty__description {
+
+}
+.img__animation {
     animation: leaving 0.6s 1;
     opacity: 0;
 }

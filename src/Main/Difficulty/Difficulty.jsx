@@ -5,6 +5,14 @@ import ghost_medium from './../../assets/icons/ghost_medium.png';
 import ghost_hard from './../../assets/icons/ghost_hard.png';
 
 const Difficulty = () => {
+    const addClass = (id) => {
+        let imgClass = document.body.querySelectorAll('.img__difficulty__description')[id];
+        imgClass.classList.add('img__animation');
+    }
+    const deleteClass = (id) => {
+        let imgClass = document.body.querySelectorAll('.img__difficulty__description')[id];
+        imgClass.classList.remove('img__animation');
+    }
     return (
         <div className="wrapper__difficulty">
             Уровни Страха
@@ -17,8 +25,8 @@ const Difficulty = () => {
             </div>
             <div className="wrapper__difficulty_description">
                 <div className="wrapper__difficulty_description__light">
-                    <b className="b__difficulty__description">Легкий
-                        <img src={fear}></img>
+                    <b className="b__difficulty__description" onMouseOver={() => {addClass(0)}} onMouseOut={() => {deleteClass(0)}}>Легкий
+                        <img src={fear} className="img__difficulty__description"></img>
                     </b>
                     <div className="difficulty_description">Игра актеров без контакта или полное их отсутсвие<br></br>
                         Скримеры<br></br>
@@ -26,8 +34,8 @@ const Difficulty = () => {
                     </div>
                 </div>
                 <div className="wrapper__difficulty_description__medium">
-                    <b className="b__difficulty__description"> Средний
-                        <img src={ghost_medium}></img>
+                    <b className="b__difficulty__description" onMouseOver={() => {addClass(1)}} onMouseOut={() => {deleteClass(1)}}> Средний
+                        <img src={ghost_medium} className="img__difficulty__description"></img>
                     </b>
                     <div className="difficulty_description">Легкий контакт (касания)<br></br>
                         Скримеры<br></br>
@@ -36,8 +44,8 @@ const Difficulty = () => {
                     </div>
                 </div>
                 <div className="wrapper__difficulty_description__hard">
-                    <b className="b__difficulty__description"> Хард
-                        <img src={ghost_hard}></img>
+                    <b className="b__difficulty__description" onMouseOver={() => {addClass(2)}} onMouseOut={() => {deleteClass(2)}}> Хард
+                        <img src={ghost_hard} className="img__difficulty__description"></img>
                     </b>
                     <div className="difficulty_description">Полный контакт<br></br>
                         Скримеры<br></br>

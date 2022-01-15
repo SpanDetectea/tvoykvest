@@ -34,7 +34,7 @@
 }
 .location__phone__number {
     text-decoration: underline;
-    color: red;
+    color: #bd0c00;
 }
 @media (max-width: 690px) {
     .wrapper__location__map {

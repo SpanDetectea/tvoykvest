@@ -16,7 +16,7 @@ const Navbar = () => {
             {/* <li>Наши квесты</li> */}
             <ListMenu path = 'aboutGame' text = 'Об игре' />
             <ListMenu path = 'difficulty' text = 'Уровни страха' icon = {difficultyIcon}/>
-            <ListMenu path = 'certificate' text = 'Сертификат' icon = {certificateIcon}/>
+            {/* <ListMenu path = 'certificate' text = 'Сертификат' icon = {certificateIcon}/> */}
             <ListMenu path = 'birthday' text = 'День рождения' icon = {stockIcon}/>
             <ListMenu path = 'reviews' text = 'Отзывы' icon = {reviewsIcon}/>
             <ListMenu path = 'location' text = 'Где находится?' icon = {locationIcon}/>

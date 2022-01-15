@@ -1,0 +1,31 @@
+footer {
+    background-color: #010e1b;
+    padding-top: 4%;
+    /* padding-left: 2%; */
+}
+.footer__border {
+    border-top: 1px solid white;
+    /* padding-bottom: 1%; */
+}
+.wrapper__footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-left: 2%;
+    margin-top: 1%
+}
+.footer__logo {
+    width: 100px;
+}
+.author__site {
+    align-self: center;
+    margin-left: calc(100% - 50% - 2% - 100px);
+}
+.author__site a {
+    color: #bd0c00;
+}
+@media (max-width: 420px) {
+    .footer__logo {
+        width: 50px;
+    }
+}
