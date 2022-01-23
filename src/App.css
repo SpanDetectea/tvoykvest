@@ -14,6 +14,11 @@ html, body, #root, .App {
   font-size: 15px;
   -webkit-background-size: cover;
   overflow-y: visible;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  /* vertical-align: middle; */
+  /* background-color: red; */
 }
 @media (max-width: 400px) {
   .App {

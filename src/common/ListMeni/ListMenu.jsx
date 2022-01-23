@@ -13,7 +13,7 @@ const ListMenu = (props) => {
     return (
         <li className="navbar__ul__li">
             {path == '/reservation' ?
-                <NavLink to={path} onClick={addClass}>
+                <NavLink to='/karantin' onClick={addClass}>
                     {props.text}
                 </NavLink>
                 : <NavLink className='' to={path} >{props.text}</NavLink>}

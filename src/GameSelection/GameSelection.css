@@ -1,0 +1,87 @@
+.double__wrapper__cards {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #010e1b;
+}
+
+.wrapper__cards {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.card {
+    position: relative;
+    /* top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%); */
+    margin-left: 1%;
+    margin-bottom: 1%;
+    perspective: 1000px;
+    /* width: 30%; */
+    height: 350px;
+}
+
+.cardContainer {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+    position: relative;
+    box-shadow: 0px 0px 6px 2px #ffffff50;
+    border-radius: 10px;
+}
+
+.cardFront,
+.cardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cardPhoto {}
+
+.cardBack {
+    justify-content: flex-start;
+    transform: rotateY(180deg);
+}
+
+.card:hover .cardContainer {
+    transform: rotateY(180deg);
+}
+
+a {
+    width: inherit;
+    position: relative;
+    /* top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%); */
+    margin-left: 1%;
+    margin-bottom: 1%;
+    perspective: 1000px;
+    width: 30%;
+    /* height: 350px; */
+}
+
+.p__price {
+    /* margin-top: 15%; */
+    position: absolute;
+    bottom: 5%;
+}
+.advantages__section {
+    /* height: 100%; */
+}

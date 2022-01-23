@@ -1,5 +1,7 @@
 .wrapper__main {
     width: 100%;
-    height: auto;
+    height: 100%;
     position: relative;
+    /* border: 1px solid red; */
+    /* background-color: red; */
 }

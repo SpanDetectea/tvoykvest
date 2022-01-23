@@ -13,7 +13,7 @@ const Birthday = () => {
 
     return (
         <div className="wrapper__birthday">
-            {isPresent &&
+            {/* {isPresent &&
                 <div>
                     <div>Отпразднуй свой День Рождения вместе с нами!</div>
                     <div>
@@ -22,7 +22,7 @@ const Birthday = () => {
                     </div>
                 </div>
             }
-            {isInfo &&
+            {isInfo && */}
                 <div >
                     <div>
                         Отпразднуй свой День Рождения вместе с нами!
@@ -45,7 +45,7 @@ const Birthday = () => {
                         </div>
                     </div>
                 </div>
-            }
+            {/* } */}
         </div>
 
     );

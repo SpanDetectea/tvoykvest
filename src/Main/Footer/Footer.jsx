@@ -1,6 +1,7 @@
 import React from "react";
 import './Footer.css';
 import logo from './../../assets/images/logo.png';
+import Contact from "../Contact/Contact";
 
 const Footer = () => {
     return (
@@ -11,6 +12,7 @@ const Footer = () => {
                     <div className="author__site">
                         Сайт создан <a href="https://www.instagram.com/spandetectea/">SpanDetectea</a>
                     </div>
+                    <div><Contact /></div>
                 </div>
             </div>
         </footer>
