@@ -1,11 +1,13 @@
 .wrapper__navbar {
     width: 100%;
-    height: inherit;
+    height: auto;
     display: flex;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1;
     align-items: center;
-    /* font-size: 14px; */
+    font-size: 14px;
 }
 .navbar__ul {
     height: auto;
@@ -15,7 +17,7 @@
     align-items: center;
     margin-right: 5%;
     padding-inline-start: 0;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 ul li {
     width: min-content;
@@ -30,7 +32,8 @@ ul li {
 .navbar__ul__hidden {
     font-size: 0.8em;
     align-items: flex-start;
-    opacity: 0.7;
+    /* opacity: 0.7; */
+    background-color: #010e1b;
 }
 .button__back {
     background-color: white;
@@ -47,7 +50,7 @@ ul li {
      /* -webkit-box-reflect:below 1px linear-gradient(transparent, #0005); */
 }
 @media (max-width: 420px) {
-    .navbar__ul {
+    .wrapper__navbar {
         font-size: 8px;
     }
     .navbar__ul__hidden {
@@ -55,9 +58,15 @@ ul li {
         align-items: flex-start;
         opacity: 0.7;
     }
+    .button__back {
+        font-size: 8px;
+    }
 }
 @media (min-width: 421px ) and (max-width: 670px) {
-    .navbar__ul {
+    .wrapper__navbar {
+        font-size: 9px;
+    }
+    .button__back {
         font-size: 9px;
     }
 }

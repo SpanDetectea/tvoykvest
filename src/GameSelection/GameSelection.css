@@ -18,15 +18,27 @@
 
 .card {
     position: relative;
-    /* top: 0;
-    left: 50%;
-    transform: translate(-50%, 0%); */
     margin-left: 1%;
-    margin-bottom: 1%;
+    margin-top: 3%;
     perspective: 1000px;
-    /* width: 30%; */
-    height: 350px;
+    height: 40vh;
 }
+@media (max-width: 420px) {
+    .card {
+        height: 25vh;
+    }
+}
+@media (min-width: 401px) and (max-width: 535px) {
+    .card {
+        font-size: 10px;
+    }
+}
+@media (min-width: 536px) and (max-width: 870px) {
+    .card {
+        font-size: 12px;
+    }
+}
+
 
 .cardContainer {
     width: 100%;
@@ -67,21 +79,16 @@
 a {
     width: inherit;
     position: relative;
-    /* top: 0;
-    left: 50%;
-    transform: translate(-50%, 0%); */
     margin-left: 1%;
     margin-bottom: 1%;
     perspective: 1000px;
     width: 30%;
-    /* height: 350px; */
 }
 
 .p__price {
-    /* margin-top: 15%; */
     position: absolute;
     bottom: 5%;
 }
 .advantages__section {
-    /* height: 100%; */
+
 }

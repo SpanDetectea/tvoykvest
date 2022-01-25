@@ -16,7 +16,7 @@ const ListMenu = (props) => {
                 <NavLink to='/karantin' onClick={addClass}>
                     {props.text}
                 </NavLink>
-                : <NavLink className='' to={path} >{props.text}</NavLink>}
+                : <a  href="#span__square">{props.text}</a>}
         </li>
     );
 }

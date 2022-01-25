@@ -4,7 +4,7 @@ import './Description.css';
 const Description = () => {
     return (
         <div className="wrapper__aboutGame__description__double">
-            <div className="span__square">Перед вами более 150 кв.метров</div>
+            <div className="span__square" id = "span__square">Перед вами более 150 кв.метров</div>
             <div className="wrapper__description__location">
                 <div className="description__location">
                     Лабиринты

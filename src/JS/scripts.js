@@ -8,11 +8,11 @@ import slider7 from './../assets/images/slider7.jpg';
 
 export const infoAboutScroll = (e) => {
     if (e.target.scrollTop >= 100) {
-        let navbar = document.body.querySelector('.navbar__ul');
+        let navbar = document.body.querySelector('.wrapper__navbar');
         navbar.classList.add('navbar__ul__hidden');
     }
     if (e.target.scrollTop < 100) {
-        let navbar = document.body.querySelector('.navbar__ul');
+        let navbar = document.body.querySelector('.wrapper__navbar');
         navbar.classList.remove('navbar__ul__hidden');
     }
 }
