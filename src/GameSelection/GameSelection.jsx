@@ -9,19 +9,21 @@ const GameSelection = () => {
         <div className="double__wrapper__cards">
             <div className="wrapper__cards">
                 {cardsInfo.card.map((item, index) => {
-                    let card__number = `card card__number${index}`;
+                    let card__number = `card`;
+                    let cardFront = `cardFront card__number${index}`;
+                    // let cardBack = `cardBack card__number${index}`;
                     let page = transformSelection(index);
                     console.log(page);
                     return (
                         <NavLink key={index} to={page}>
                             <div className={card__number}>
                                 <div className="cardContainer">
-                                    <div className="cardFront">
+                                    <div className={cardFront}>
                                         <div className="cardPhoto"></div>
                                         <h2>{item.nameKvest}</h2>
                                         <p className="p__price">{item.price}</p>
                                     </div>
-                                    <div className="cardBack">
+                                    <div className='cardBack'>
                                         <h2>{item.nameKvest}</h2>
                                         <p>{item.discriptionKvest}</p>
                                     </div>

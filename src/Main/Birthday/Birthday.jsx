@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Birthday.css';
 import present from './../../assets/images/present.png';
+import { Element } from "react-scroll";
 
 const Birthday = () => {
     const [isPresent, setisPresent] = useState(true);
@@ -25,7 +26,9 @@ const Birthday = () => {
             {isInfo && */}
                 <div >
                     <div>
+                        <Element name = "scrollbirthday">
                         Отпразднуй свой День Рождения вместе с нами!
+                        </Element>
                     </div>
                     <div className="wrapper__birthday__text">
                         <div className="birthday__description">

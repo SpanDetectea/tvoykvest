@@ -23,6 +23,7 @@
     perspective: 1000px;
     height: 40vh;
 }
+
 @media (max-width: 420px) {
     .card {
         height: 25vh;
@@ -89,6 +90,6 @@ a {
     position: absolute;
     bottom: 5%;
 }
-.advantages__section {
-
+.card__number0 {
+    background: url('./../assets/images/karantin_front.jpg');
 }

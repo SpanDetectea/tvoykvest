@@ -18,6 +18,8 @@
     "react-router": "^6.2.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.4",
+    "react-scrollable-anchor": "^0.6.1",
     "react-yandex-maps": "^4.6.0",
     "redux": "^4.1.2",
     "web-vitals": "^2.1.3",

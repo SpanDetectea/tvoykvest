@@ -1,10 +1,15 @@
 import React from "react";
 import './Description.css';
+import * as Scroll from 'react-scroll';
+// import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const Description = () => {
+    let Element = Scroll.Element;
     return (
         <div className="wrapper__aboutGame__description__double">
-            <div className="span__square" id = "span__square">Перед вами более 150 кв.метров</div>
+            <Element name="myScrollToElement">
+                <div className="span__square" id="aboutGame">Перед вами более 150 кв.метров</div>
+            </Element>
             <div className="wrapper__description__location">
                 <div className="description__location">
                     Лабиринты

@@ -8,6 +8,7 @@
     z-index: 1;
     align-items: center;
     font-size: 14px;
+    background-color: #02172c;
 }
 .navbar__ul {
     height: auto;

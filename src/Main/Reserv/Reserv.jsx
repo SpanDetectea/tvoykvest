@@ -29,29 +29,7 @@ const Reserv = () => {
         //         </ul>
         //     </div>
         // </div>
-        <div>
-            <a href="#" className="button__back">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Neon button
-            </a>
-            <a href="#" className="button__back">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Neon button
-            </a>
-            <a href="#" className="button__back">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Neon button
-            </a>
-        </div>
+       <div>dsadsa</div>
     );
 }
 

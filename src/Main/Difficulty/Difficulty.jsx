@@ -3,6 +3,8 @@ import './Difficulty.css';
 import fear from './../../assets/icons/fear.png';
 import ghost_medium from './../../assets/icons/ghost_medium.png';
 import ghost_hard from './../../assets/icons/ghost_hard.png';
+import * as Scroll from 'react-scroll';
+
 
 const Difficulty = () => {
     const addClass = (id) => {
@@ -14,8 +16,8 @@ const Difficulty = () => {
         imgClass.classList.remove('img__animation');
     }
     return (
-        <div className="wrapper__difficulty">
-            Уровни Страха
+        <div className="wrapper__difficulty" id="difficulty">
+           <Scroll.Element name="scrollDifficulty"> Уровни Страха</Scroll.Element>
             <div className="wrapper__ul__difficulty">
                 <ul className="ul__difficulty">
                     <li className="li__difficulty">Вы можете выбрать уровень страха прямо перед игрой</li>
