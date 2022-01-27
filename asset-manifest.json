@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tvoykvest/static/css/main.dc61ec78.css",
-    "main.js": "/tvoykvest/static/js/main.07ecdb4a.js",
+    "main.css": "/tvoykvest/static/css/main.65e55808.css",
+    "main.js": "/tvoykvest/static/js/main.d27741ec.js",
     "static/js/787.8a02e3e7.chunk.js": "/tvoykvest/static/js/787.8a02e3e7.chunk.js",
     "static/media/logo.png": "/tvoykvest/static/media/logo.effd6a34d49ad197f87f.png",
     "static/media/wrapperAW.jpg": "/tvoykvest/static/media/wrapperAW.9d11bb3074479bea2edc.jpg",
@@ -19,12 +19,12 @@
     "static/media/arrow_left.png": "/tvoykvest/static/media/arrow_left.99a7e53380545f81effb.png",
     "static/media/fear.png": "/tvoykvest/static/media/fear.896e44d71e1bcbdebfc7.png",
     "index.html": "/tvoykvest/index.html",
-    "main.dc61ec78.css.map": "/tvoykvest/static/css/main.dc61ec78.css.map",
-    "main.07ecdb4a.js.map": "/tvoykvest/static/js/main.07ecdb4a.js.map",
+    "main.65e55808.css.map": "/tvoykvest/static/css/main.65e55808.css.map",
+    "main.d27741ec.js.map": "/tvoykvest/static/js/main.d27741ec.js.map",
     "787.8a02e3e7.chunk.js.map": "/tvoykvest/static/js/787.8a02e3e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc61ec78.css",
-    "static/js/main.07ecdb4a.js"
+    "static/css/main.65e55808.css",
+    "static/js/main.d27741ec.js"
   ]
 }
