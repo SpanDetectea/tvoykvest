@@ -1,6 +1,8 @@
 import React from "react";
 import './Reservation.css';
 import cross from './../../assets/icons/cross.png';
+import cross_touch from './../../assets/icons/cross_touch.png';
+
 
 const Reservation = (props) => {
 
@@ -11,6 +13,9 @@ const Reservation = (props) => {
         let wrapper = document.querySelector('.wrapper__modal__window');
         wrapper.classList.add('wrapper__hidden');
     }
+    // const crossTouch = (props) => {
+    //     props.target.src = cross_touch;
+    // }
 
     return (
         <div className="wrapper__modal__window wrapper__hidden" onClick={deleteClass}>

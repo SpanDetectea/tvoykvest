@@ -2,7 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import cardsInfo, { transformSelection } from "../redux/testing";
 import AdvantagesSection from "./AdvantagesSection/AdvantagesSection";
+import Application from "./Application/Application";
 import "./GameSelection.css";
+import Footer from "./../Main/Footer/Footer.jsx";
 
 const GameSelection = () => {
     return (
@@ -36,6 +38,8 @@ const GameSelection = () => {
             <div className="advantages__section">
                 <AdvantagesSection />
             </div>
+            <Application />
+            <Footer />
         </div>
     );
 }

@@ -1,0 +1,72 @@
+.wrapper__application {
+   width: 100%;
+   text-align: center;
+}
+.wrapper__application form {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.wrapper__application div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1% 0;
+}
+.wrapper__application div input {
+    width: 40%;
+}
+.wrapper__application button {
+    width: 20%;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    background-color: #010e1b;
+    border: 2px solid white;
+    cursor: pointer;
+    /* transition:  linear; */
+    position:relative;
+}
+.wrapper__application button:hover {
+    width: 20%;
+    height: 50px;
+    border-radius: 12px;
+    color: #010e1b;
+    background-color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    /* animation: scale 0.9s infinite; */
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.0.);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    75% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.error__form {
+    color: red;
+}
+@media (max-width: 420px) {
+    .wrapper__application button {
+        width: 20%;
+        height: 30px;
+    }
+}

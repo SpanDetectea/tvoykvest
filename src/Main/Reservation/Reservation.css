@@ -50,6 +50,7 @@ p {
     cursor: pointer;
 }
 
+
 @media (max-width: 420px) {
     .wrapper__reservation {
         width: 300px;

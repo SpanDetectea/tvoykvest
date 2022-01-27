@@ -14,6 +14,12 @@ import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scro
 
 const Navbar = (props) => {
 
+    const addClass = props => {
+        // console.log('da');
+        let wrapper = document.querySelector('.wrapper__modal__window');
+        wrapper.classList.remove('wrapper__hidden');
+    }
+
     let scroller = Scroll.scroller;
 
     const goToScroll =(props) => {
@@ -21,6 +27,7 @@ const Navbar = (props) => {
             duration: 1000,
             delay: 100,
             smooth: true,
+            offset: -50
           });
     }
     
@@ -44,6 +51,9 @@ const Navbar = (props) => {
             </li>
             <li className="navbar__ul__li">
                 <a onClick={() => {goToScroll('scrolllocation')}}>Где находится?</a>
+            </li>
+            <li className="navbar__ul__li">
+                <a onClick={addClass}>Забронировать</a>
             </li>
         </ul>
     </div>
