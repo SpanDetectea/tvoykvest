@@ -5,23 +5,31 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #010e1b;
+    /* background-color: #010e1b; */
+    background-color: #ffffff;
+    color: #50021d;
 }
 
 .wrapper__cards {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
+    padding: 3% 0;
     flex-wrap: wrap;
     overflow: hidden;
+    justify-content: space-evenly;
 }
 
 .card {
     position: relative;
-    margin-left: 1%;
-    margin-top: 3%;
+    /* margin-left: 1%; */
+    /* margin-top: 3%; */
     perspective: 1000px;
     height: 40vh;
+    text-shadow: 1px 0 1px black,
+    -1px 0 1px black,
+    0 1px 1px black,
+    0 -1px 1px black;
 }
 
 @media (max-width: 420px) {
@@ -57,13 +65,22 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background: #222222;
+    /* background: #222222; */
+    background: #dad5e6;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     text-align: center;
+    /* color: black; */
+}
+
+.cardFront {
+    /* text-shadow: 1px 0 1px black,
+    -1px 0 1px black,
+    0 1px 1px black,
+    0 -1px 1px black; */
 }
 
 .cardPhoto {}
@@ -71,6 +88,8 @@
 .cardBack {
     justify-content: flex-start;
     transform: rotateY(180deg);
+    color: #50021d;
+    text-shadow: none;
 }
 
 .card:hover .cardContainer {
@@ -80,8 +99,8 @@
 a {
     width: inherit;
     position: relative;
-    margin-left: 1%;
-    margin-bottom: 1%;
+    /* margin-left: 1%; */
+    margin-bottom: 3%;
     perspective: 1000px;
     width: 30%;
 }
@@ -92,4 +111,29 @@ a {
 }
 .card__number0 {
     background: url('./../assets/images/karantin_front.jpg');
+    background-size: cover;
+}
+.card__number1 {
+    background: url('https://www.dari66.ru/upload/iblock/487/4872dc0f954c65f81389d0d6c53ef5a2.jpg');
+    background-size: cover;
+}
+.card__number2 {
+    background: url('https://www.ozeroponti.ru/upload/iblock/eea/eea48d858c3e09dfee578df25184fc18.jpg');
+    background-size: cover;
+}
+.card__number3 {
+    background: url('https://www.e-xecutive.ru/uploads/article/image/1746964/thumb_corporative_sovet.jpg');
+    background-size: cover;
+}
+.card__number4 {
+    background: url('https://gentlemenfashion.ru/wp-content/uploads/2021/10/whatsapp-image-2021-10-28-at-19.19.31.jpeg');
+    background-size: cover;
+}
+.card__number5 {
+    background: url('https://chelny-biz.ru/upload/resize_cache/iblock/b71/920_615_1/b712c11c824722a359e6a30cbe3881bb.JPG');
+    background-size: cover;
+}
+.GM__footer {
+    width: 100%;
+    /* background-color: #50021d; */
 }

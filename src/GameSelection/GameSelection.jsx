@@ -21,7 +21,7 @@ const GameSelection = () => {
                             <div className={card__number}>
                                 <div className="cardContainer">
                                     <div className={cardFront}>
-                                        <div className="cardPhoto"></div>
+                                        {/* <div className="cardPhoto"></div> */}
                                         <h2>{item.nameKvest}</h2>
                                         <p className="p__price">{item.price}</p>
                                     </div>
@@ -39,7 +39,9 @@ const GameSelection = () => {
                 <AdvantagesSection />
             </div>
             <Application />
-            <Footer />
+            <div className="GM__footer">
+                <Footer />
+            </div>
         </div>
     );
 }

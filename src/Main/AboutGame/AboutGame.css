@@ -19,6 +19,14 @@
     .wrapper__aboutGame__intro {
         width: 45%;
         padding-left: 9%;
+        padding-top: 10%;
+    }
+}
+@media (max-width: 650px) {
+    .wrapper__aboutGame__intro {
+        width: 45%;
+        padding-left: 9%;
+        padding-top: 10%;
     }
 }
 

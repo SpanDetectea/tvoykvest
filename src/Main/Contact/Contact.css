@@ -37,3 +37,15 @@
 .wrapper__contact__a:hover {
     transform: scale(0.9);
 }
+@media (max-width: 420px) {
+    .wrapper__contact__a {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (min-width: 421px) and (max-width: 1000px) {
+    .wrapper__contact__a {
+        width: 40px;
+        height: 40px;
+    }
+}

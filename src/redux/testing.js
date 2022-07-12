@@ -26,7 +26,7 @@ const cardsInfo = {
             price: '1 человек - 500 рублей'
         },
         {
-            nameKvest: 'Что-то еще',
+            nameKvest: 'Ночь Мертвых',
             discriptionKvest: 'tozhe ochen xorochii',
             price: '1 человек - 500 рублей'
         },
