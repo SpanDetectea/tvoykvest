@@ -1,2 +1,2 @@
 # Get started
-[https://spandetectea.github.io/tvoykvest]
+https://spandetectea.github.io/tvoykvest
